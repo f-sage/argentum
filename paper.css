@@ -68,11 +68,12 @@
       51%,
       var(--transparent)
     );
-}
+} 
 
 .tape-section {
-  position: absolute;
-  width: 100%;
+   position: absolute;
+   width: 100%; 
+   pointer-events: none;
 }
 
 .top-tape {
