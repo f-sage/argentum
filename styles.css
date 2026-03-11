@@ -51,3 +51,15 @@ body{
 .copy:active{
     color: #eddfb9;
 }
+
+ #links{
+    display:flex;
+    gap:1em;
+    align-content: space-evenly;
+} 
+
+.paper a{
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
