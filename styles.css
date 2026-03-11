@@ -9,7 +9,7 @@ body{
   background-image: url("banner.png");
 
   /* Set a specific height */
-  min-height: 500px; 
+  min-height: 300px; 
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -28,7 +28,7 @@ body{
 #banner-content{
     color:#f0e8d3;
     text-align: center;
-    margin-top:10em;
+    padding:2em;
 }
 
 #header-line1{
@@ -54,6 +54,7 @@ body{
 
 #links{
     display:flex;
+    flex-wrap: wrap;
     gap:1em;
     align-content: space-evenly;
     perspective: 1000px; 
