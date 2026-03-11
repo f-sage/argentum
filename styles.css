@@ -27,14 +27,27 @@ body{
 
 #banner-content{
     color:#f0e8d3;
-    text-shadow: 1px 1px 2px #eddfb9;
     text-align: center;
     margin-top:10em;
 }
 
 #header-line1{
     font-size:3em;
+    text-shadow: 1px 1px 2px #eddfb9;
 }
 #header-line2{
     font-size:2em;
+}
+
+.copy{
+    color:#f0e8d3;
+    background-color: transparent;
+    border-color: transparent;
+    cursor:pointer;
+}
+.copy:hover{
+    color: #eddcad;
+}
+.copy:active{
+    color: #eddfb9;
 }
