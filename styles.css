@@ -60,13 +60,16 @@ body{
     perspective: 1000px; 
 } 
 
-.paper{
+#links .paper{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
     transition: transform 0.5s, box-shadow 0.5s;
     color:#24143d;
 }
-.paper a{
+#links .paper a{
     font-family: "Itim", cursive;
     font-weight: 400;
     
@@ -89,7 +92,7 @@ body{
     transform:rotate(-3deg);
 }
 
-.paper:hover{
+#links .paper:hover{
     transform-origin: top;
     transform: rotateX(15deg);
 
@@ -98,6 +101,41 @@ body{
 
 a, a:visited, a:hover, a:active {
   color: inherit;
+}
+
+ul{
+    list-style-type: none;
+    display:flex;
+    align-content:space-around;
+    flex-wrap:wrap;
+    gap:2em;
+    margin:2em;
+}
+
+#latest-posts{
+   margin-top:3em;
+   margin-left: 3em;
+   color:#332210;
+}
+
+h2{
+    font-size:2em;
+}
+
+.post-preview{
+    position: relative;
+    background-color:#f5cf69;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.1);
+    text-wrap: wrap;
+    padding:1em;
+
+    box-shadow: 0px 2px 2px 3px rgba(0,0,0,0.1);
+    width: 12rem;
+    height: 12rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1rem;
 }
 
 @media only screen and (max-width: 900px) {
