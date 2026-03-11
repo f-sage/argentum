@@ -9,7 +9,7 @@
 .pink {
   --paper-color: #ecb2ba;
   --paper-dark: #c6939a;
-  --shadow-size: 1px;
+  --shadow-size: 3px;
   --transparent: rgba(236, 178, 186, 0);
 }
 
@@ -23,7 +23,7 @@
 .green{
     --paper-color:#c3ebd1;
     --paper-dark:#abd4b9;
-    --shadow-size: 2px;
+    --shadow-size: 3px;
     --transparent: rgba(213, 224, 249, 0);
 }
 
@@ -127,4 +127,3 @@
   left: -4vmin;
   bottom: 0;
 }
-

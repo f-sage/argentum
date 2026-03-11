@@ -58,8 +58,21 @@ body{
     align-content: space-evenly;
 } 
 
+.paper{
+    padding:0.5em;
+}
+
 .paper a{
     font-family: "Itim", cursive;
     font-weight: 400;
-    font-style: normal;
+}
+
+.blue.paper{
+    transform:rotate(2deg);
+}
+.pink.paper{
+    transform:rotate(1deg);
+}
+.green.paper{
+    transform:rotate(-3deg);
 }
