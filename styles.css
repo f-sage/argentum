@@ -1,5 +1,6 @@
 body{
     background-color: #eddfb9;
+   color:#332210;
     margin:0;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
@@ -114,7 +115,6 @@ ul{
 
 #latest-posts{
    margin-left: 3em;
-   color:#332210;
 }
 
 h2{
@@ -142,6 +142,19 @@ h2{
     height: 12px;
     border: 0;
     box-shadow: inset 0 -12px 12px -12px #5e4a11;
+}
+
+#description{
+    margin: 1.3em;
+    display:flex;
+    justify-content: center;
+}
+
+#description p{
+    max-width: 900px;
+    text-align: justify;
+    font-size: 1.3em;
+    font-style: italic;
 }
 
 @media only screen and (max-width: 900px) {
