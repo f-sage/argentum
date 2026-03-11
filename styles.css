@@ -104,17 +104,19 @@ a, a:visited, a:hover, a:active {
   color: inherit;
 }
 
-ul{
+ul {
     list-style-type: none;
     display:flex;
     align-content:space-around;
     flex-wrap:wrap;
-    gap:2em;
-    margin:2em;
 }
 
 #latest-posts{
    margin-left: 3em;
+}
+
+#latest-posts ul{
+    gap:2em;
 }
 
 h2{
@@ -146,7 +148,7 @@ h2{
 
 #description{
     margin: 1.3em;
-    display:flex;
+    display: flex;
     justify-content: center;
 }
 
@@ -155,6 +157,18 @@ h2{
     text-align: justify;
     font-size: 1.3em;
     font-style: italic;
+}
+
+footer{
+    display:flex;
+    justify-content: center;
+    gap:1em;
+}
+
+footer ul li:not(:last-child)::after{
+    content: '•';
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 @media only screen and (max-width: 900px) {
