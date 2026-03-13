@@ -10,59 +10,24 @@
     <title>The Commune</title>
 </head>
 <body>
-    <header id="banner" class="parallax">
-        <div id="banner-content">
-            <h1 id="header-line1">Welcome to The Commune!</h1>
-            <p id="header-line2">
-            Server IP: <span id="server-ip">104.192.227.51:27503</span>
-            <button class="btn copy" id="copy-server-ip">
-                <svg
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                >
-                <path d="M13 7H7V5H13V7Z" fill="currentColor" />
-                <path d="M13 11H7V9H13V11Z" fill="currentColor" />
-                <path d="M7 15H13V13H7V15Z" fill="currentColor" />
-                <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M3 19V1H17V5H21V23H7V19H3ZM15 17V3H5V17H15ZM17 7V19H9V21H19V7H17Z"
-                    fill="currentColor"
-                />
-                </svg>
-            </button>
-        </p>
-      </div> 
+    <header>
+        <h1>Welcome to The Commune!</h1>
     </header>
 
     <main id="content">
         <div id="description">
             <p>The Commune is a cooperative Vintage Story community where creativity, collaboration, and long-term progression are at the heart of the experience. This is a place for players who enjoy building together, planning infrastructure, and participating in community-driven projects.</p>
         </div> 
-       <div id="links">
-            <div class="blue paper button">
-                <div class="tape-section"></div>
+       <menu id="links">
                 <a href="https://discord.com/invite/6QX7My5ZTS">Join our Discord to play!</a> 
-            </div>
-            
-            <div class="green paper button"> 
-                <div class="top-tape"></div>
                 <a href="http://104.192.227.51:8080/?renderer=basic&zoom=0&x=0&z=0">LiveMap</a>
-            </div>
-        
-            <div class="pink paper button">
-                <div class="tape-section"></div>
                 <a href="https://buymeacoffee.com/theebutterman">Support the Commune!</a>
-                <div class="tape-section"></div>
-            </div>
-        </div>
+                <a href="/about">Server details</a>
+       </menu>
         
         <hr class="divider"/>
 
-        <div id="latest-posts">
+        <div id="posts">
             <h2>Latest posts</h2>
             <ul>
                 <li class="post-preview">
@@ -84,7 +49,7 @@
                     </div>
                 </li>
             </ul>
-           
+           <a href="#">See more</a>
         </div>
     </main>
 
@@ -92,7 +57,7 @@
 
     <footer>
         <ul>
-            <li>сopyright idk</li>
+            <li>Maintained by <em>TheButterMan</em></li>
             <li>2026</li>
         </ul>
     </footer>
