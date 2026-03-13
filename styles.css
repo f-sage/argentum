@@ -95,3 +95,22 @@ footer ul li:not(:last-child)::after{
     margin-right: 10px;
     margin-left: 10px;
 }
+
+/* POSTS */
+#posts ul{
+    list-style: none;
+    padding: 0;
+}
+
+#posts h3{
+    margin: 0.5em 0;
+}
+
+#posts li{
+   margin: 1em 0; 
+}
+
+.post-details{
+    display: flex;
+    justify-content: space-between;
+}
