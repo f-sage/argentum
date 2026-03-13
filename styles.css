@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin%20Slab:700|Playwrite%20DE%20Grund:400');
 
+/* FONTS */
 body {
   font-family: 'Playwrite DE Grund';
   font-weight: 400;
@@ -23,3 +24,45 @@ h4 {font-size: 1.777rem; /* 28.48px */}
 h5 {font-size: 1.333rem; /* 21.28px */}
 
 small {font-size: 0.750rem; /* 12px */}
+
+/* LAYOUT */
+body {
+    display: grid;
+    grid-template: 
+    "menu"
+    "header"
+    "description"
+    "posts"
+    "footer";
+}
+
+@media only screen and (max-width:900px){
+    body {
+    grid-template-areas: 
+    "header"
+    "menu"
+    "description"
+    "posts"
+    "footer";
+    }
+}
+
+menu {
+    grid-area: menu;
+}
+
+header {
+    grid-area: header;
+}
+
+#posts{
+    grid-area: posts;
+}
+
+#description{
+    grid-area: description;
+}
+
+footer {
+    grid-area: footer;
+}
