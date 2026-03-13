@@ -55,7 +55,7 @@ body {
     }
 }
 
-menu {
+nav {
     grid-area: menu;
 }
 
