@@ -34,6 +34,8 @@ body {
     "description"
     "posts"
     "footer";
+
+    justify-items: center;
 }
 
 @media only screen and (max-width:900px){
@@ -65,4 +67,14 @@ header {
 
 footer {
     grid-area: footer;
+}
+
+/* SPACING */
+p {
+    max-width: 60ch;
+}
+
+#description{
+    text-align: justify;
+    text-align-last: left;
 }
