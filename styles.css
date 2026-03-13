@@ -99,8 +99,7 @@ footer ul{
 
 footer ul li:not(:last-child)::after{
     content: '•';
-    margin-right: 10px;
-    margin-left: 10px;
+    margin: 0 1em;
 }
 
 /* POSTS */
@@ -120,4 +119,14 @@ footer ul li:not(:last-child)::after{
 .post-details{
     display: flex;
     justify-content: space-between;
+}
+
+/* NAVBAR */
+nav a{
+    text-decoration: none;
+}
+
+nav a:not(:last-child)::after{
+    content: '•';
+    margin: 0 1em;
 }
