@@ -78,3 +78,15 @@ p {
     text-align: justify;
     text-align-last: left;
 }
+
+/* FOOTER */
+footer ul{
+    list-style: none;
+    display: flex;
+}
+
+footer ul li:not(:last-child)::after{
+    content: '•';
+    margin-right: 10px;
+    margin-left: 10px;
+}
