@@ -95,6 +95,7 @@ p {
 footer ul{
     list-style: none;
     display: flex;
+    padding:0 1em;
 }
 
 footer ul li:not(:last-child)::after{
