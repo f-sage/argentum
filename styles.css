@@ -79,6 +79,8 @@ footer {
 body{
     margin: 0;
     padding: 1em 2em;
+    min-height: 100vh;
+    box-sizing: border-box;
 }
 
 /* DESCRIPTION */
