@@ -84,13 +84,19 @@ body{
 }
 
 /* DESCRIPTION */
-p {
+#description p{
     max-width: 60ch;
+    text-align: justify;
+    text-align-last: left;
 }
 
 #description{
-    text-align: justify;
-    text-align-last: left;
+    display: grid;
+}
+
+/* DETAILS LINK */
+#details-link{
+    justify-self: end;
 }
 
 /* FOOTER */
